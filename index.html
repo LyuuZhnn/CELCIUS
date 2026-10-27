@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1224">
+  <meta name="description" content="CELCIUS — pusat informasi, anggota, dan aktivitas circle Free Fire.">
+  <title>Beranda | CELCIUS</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/components.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body data-page="beranda" data-base="./">
+  <a class="skip-link" href="#page-content">Lewati ke konten</a>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Navigasi utama">
+      <a class="brand" href="./index.html" aria-label="CELCIUS, kembali ke beranda">
+        <span class="brand-mark" aria-hidden="true"><span>C</span><i></i></span>
+        <span class="brand-copy"><strong>CELCIUS</strong><small>FREE FIRE CIRCLE</small></span>
+        <span class="brand-badge">CC</span>
+      </a>
+      <div class="side-label">WORKSPACE</div>
+      <nav class="nav-menu" id="nav-menu" aria-label="Menu website"></nav>
+      <div class="sidebar-bottom">
+        <div class="mini-orbit" aria-hidden="true"><span></span><span></span><span></span></div>
+        <div class="sidebar-note"><strong>One Circle.</strong><br><span>One Identity.</span></div>
+        <div class="sidebar-version"><span class="tiny-dot"></span> CELCIUS HUB <span>STATIC WEB</span></div>
+      </div>
+    </aside>
+    <button class="scrim" id="scrim" aria-label="Tutup menu" tabindex="-1"></button>
+    <div class="main-shell">
+      <header class="topbar">
+        <div class="topbar-left">
+          <button class="icon-button menu-toggle" id="menu-toggle" aria-label="Buka menu navigasi" aria-controls="sidebar" aria-expanded="false">
+            <span class="menu-glyph" aria-hidden="true"><i></i><i></i><i></i></span>
+          </button>
+          <div class="page-heading">
+            <div class="breadcrumb"><span>CELCIUS HUB</span><span class="crumb-slash">/</span><span id="breadcrumb-current">Beranda</span></div>
+            <h1 id="topbar-title">Beranda</h1>
+          </div>
+        </div>
+        <div class="topbar-right">
+          <div class="topbar-chip"><span class="chip-icon">⌂</span><span><strong>Circle Profile</strong><small>Community dashboard</small></span></div>
+          <div class="topbar-monogram" aria-label="CELCIUS">C<span></span></div>
+        </div>
+      </header>
+      <main class="content-area" id="page-content" tabindex="-1">
+        <div class="loading-state"><span class="loader"></span><p>Menyiapkan CELCIUS Hub...</p></div>
+      </main>
+      <footer class="site-footer"><span>© <span id="footer-year">2026</span> CELCIUS</span><span>Built for the circle <b>·</b> <span class="footer-status"><i></i> Static &amp; ready</span></span></footer>
+    </div>
+  </div>
+  <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="true"></div>
+  <script src="./data/anggota.js"></script>
+  <script src="./data/aktivitas.js"></script>
+  <script src="./data/pengumuman.js"></script>
+  <script src="./data/peraturan.js"></script>
+  <script src="./data/config.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
